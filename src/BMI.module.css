@@ -1,0 +1,86 @@
+.middle{
+  /* Background image */
+  background-image: url("./bmi.jpg");
+  /* Full-screen */
+  height: 1150px;
+  /* Center the background image */
+  background-position: center;
+  /* Scale and zoom in the image */
+  background-size: cover;
+  /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
+  position: relative;
+  /* Add a white text color to all elements inside the .bgimg container */
+  color: white;
+  /* Add a font */
+  font-family: "Courier New", Courier, monospace;
+  /* Set the font-size to 25 pixels */
+  font-size: 25px;
+  text-align: center;
+}
+
+.box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 600px;
+  width: 600px;
+  background-color: black;
+  border-radius:100px;
+  opacity: 0.5;
+  border: 1px outset white;
+}
+.box h1{
+  font-weight: bold;
+  text-shadow: 10px 10px 10px 10px blue;
+  position: absolute;
+  top: 10%;
+  left: 25%;
+}
+.inp{
+  width: 550px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid silver;
+  position: absolute;
+  top: 25%;
+  left: 20px;
+}
+.inp1{
+  width: 550px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 1px solid silver;
+  position: absolute;
+  top: 40%;
+  left: 20px;
+}
+
+.btn{
+  width: 550px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 10px;
+  border: 1px solid silver;
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  left: 20px;
+}
+
+.msg{
+   position: absolute;
+   top: 50%;
+   font-size: 30px;
+   font-weight: bold;
+   color: white;
+   width: 600px;
+   height: 40px;
+  
+}
